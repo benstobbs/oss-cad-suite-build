@@ -21,6 +21,7 @@ elif [ ${ARCH} == 'windows-x64' ]; then
 		--with-computed-gotos \
 		--with-system-expat \
 		--with-system-ffi \
+		--with-ssl \
 		--without-c-locale-coercion \
 		--enable-loadable-sqlite-extensions
     sed -e "s|windres|x86_64-w64-mingw32-windres|g" -i Makefile
