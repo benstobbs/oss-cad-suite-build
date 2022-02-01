@@ -4,7 +4,7 @@ SourceLocation(
 	name = 'python3',
 	vcs = 'git',
 	location = 'https://github.com/python/cpython',
-	revision = 'tags/v3.8.6'
+	revision = 'tags/v3.8.12'
 )
 
 Target(
