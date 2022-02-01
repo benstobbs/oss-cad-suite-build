@@ -39,6 +39,7 @@ Target(
         'icesprog',
         'utils',
         'pyhdl',
+        'riscv-gnu-toolchain'
     ],
     branding = 'OSS CAD Suite',
     readme = 'README',
